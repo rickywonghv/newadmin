@@ -1,0 +1,57 @@
+.login-logo {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+.login-logo a{
+  color: #444;
+}
+.login-page {
+  background: #d2d6de;
+}
+.login-box{
+  width: 360px;
+  margin: 7% auto;
+}
+@media (max-width: 768px) {
+  .login-box{
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+.login-box-body{
+  background: #fff;
+  padding: 20px;
+  border-top: 0;
+  color: #666;
+}
+.login-box-body .form-control-feedback,
+ .form-control-feedback {
+  color: #777;
+}
+.login-box-ms {
+  margin: 0;
+  text-align: center;
+  padding: 0 20px 20px 20px;
+}
+.login-box-msg{
+  text-align: center;
+  margin-bottom: 25px;
+
+}
+.inputauth{
+  margin-bottom: 5px;
+}
+body.hold-transition .content-wrapper,
+body.hold-transition .right-side,
+body.hold-transition .main-footer,
+body.hold-transition .main-sidebar,
+body.hold-transition .left-side,
+body.hold-transition .main-header > .navbar,
+body.hold-transition .main-header .logo {
+  /* Fix for IE */
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}

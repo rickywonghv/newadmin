@@ -1,0 +1,11 @@
+RewriteEngine on
+AuthType Basic
+
+RewriteCond %{HTTP_REFERER} !^http://admin.musixcloud.xyz/serverinfo.php.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^https://admin.musixcloud.xyz/serverinfo.php.*$ [NC]
+
+RewriteRule \.(php)$ - [F]
+
+ErrorDocument 403 /error.html
+
+Options All -Indexes

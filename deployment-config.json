@@ -1,0 +1,9 @@
+{
+    "type": "sftp",
+    "host": "musixcloud.xyz",
+    "username": "serverpilot",
+    "password": "basa3aTR",
+    "port": 22,
+    "remotePath": "/srv/users/serverpilot/apps/admin/public",
+    "uploadOnSave": true
+}
